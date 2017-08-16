@@ -122,9 +122,9 @@
       author: '博主'
     },
     algolia: {
-      applicationID: '',
-      apiKey: 'f633fb796a30ca7335214c4b10b41861',
-      indexName: 'mirsla',
+      applicationID: '1SA6JSOUAX',
+      apiKey: '09882fa8f4ea39750e99b9696a8ed8ed',
+      indexName: 'mirsla_search',
       hits: {"per_page":10},
       labels: {"input_placeholder":"输入关键字","hits_empty":"没有找到与 ${query} 相关的内容","hits_stats":"${hits} 条相关数据，共耗时 ${time} ms"}
     }
@@ -348,6 +348,8 @@
 
           
   <div class="comments" id="comments">
+    
+      <div id="lv-container" data-id="city" data-uid="MTAyMC8zMDIyNy82Nzgy"></div>
     
   </div>
 
@@ -657,6 +659,17 @@
 
 
 
+  
+    <script type="text/javascript">
+      (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+      })(document, 'script');
+    </script>
   
 
 

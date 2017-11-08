@@ -78,7 +78,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Spring Boot," />
 
 
 
@@ -94,14 +94,18 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="标签">
-<meta property="og:url" content="http://yoursite.com/tags/index.html">
+<meta name="description" content="在刚开始学习使用Spring Boot 做demo的时候遇到了一个关于thymeleaf引用静态资源的问题。这里记录下，可能会对以后能有点帮助，由于过去太久才写的这篇博客，可能会有些不完善的地方。 当时使用的环境是：Spring boot 1.5.6的版本，thymeleaf这些都是整套配置，编辑器是IDEA。 错误重现可能需要等一段时间了，最近太忙，没发。现在说说关于thymeleaf中的配置问">
+<meta name="keywords" content="Spring Boot">
+<meta property="og:type" content="article">
+<meta property="og:title" content="SpringBoot关于thymeleaf引用问题">
+<meta property="og:url" content="http://yoursite.com/2017/10/31/spring-extend/index.html">
 <meta property="og:site_name" content="Mirsla">
+<meta property="og:description" content="在刚开始学习使用Spring Boot 做demo的时候遇到了一个关于thymeleaf引用静态资源的问题。这里记录下，可能会对以后能有点帮助，由于过去太久才写的这篇博客，可能会有些不完善的地方。 当时使用的环境是：Spring boot 1.5.6的版本，thymeleaf这些都是整套配置，编辑器是IDEA。 错误重现可能需要等一段时间了，最近太忙，没发。现在说说关于thymeleaf中的配置问">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-08-13T09:22:44.328Z">
+<meta property="og:updated_time" content="2017-11-08T15:05:12.671Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="标签">
+<meta name="twitter:title" content="SpringBoot关于thymeleaf引用问题">
+<meta name="twitter:description" content="在刚开始学习使用Spring Boot 做demo的时候遇到了一个关于thymeleaf引用静态资源的问题。这里记录下，可能会对以后能有点帮助，由于过去太久才写的这篇博客，可能会有些不完善的地方。 当时使用的环境是：Spring boot 1.5.6的版本，thymeleaf这些都是整套配置，编辑器是IDEA。 错误重现可能需要等一段时间了，最近太忙，没发。现在说说关于thymeleaf中的配置问">
 
 
 
@@ -130,13 +134,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/tags/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/10/31/spring-extend/"/>
 
 
 
 
 
-  <title>标签 | Mirsla</title>
+  <title>SpringBoot关于thymeleaf引用问题 | Mirsla</title>
   
 
 
@@ -309,40 +313,204 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/10/31/spring-extend/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Mirsla">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://oult9d051.bkt.clouddn.com/mirsla-blog-touxiang.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Mirsla">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-	<h1 class="post-title" itemprop="name headline">标签</h1>
-
-
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
-          <div class="tag-cloud">
-            <div class="tag-cloud-title">
-                目前共计 6 个标签
-            </div>
-            <div class="tag-cloud-tags">
-              <a href="/tags/Concurrent/" style="font-size: 12px; color: #ccc">Concurrent</a> <a href="/tags/Spring-Boot/" style="font-size: 12px; color: #ccc">Spring Boot</a> <a href="/tags/hello/" style="font-size: 12px; color: #ccc">hello</a> <a href="/tags/博客/" style="font-size: 30px; color: #111">博客</a> <a href="/tags/多线程/" style="font-size: 12px; color: #ccc">多线程</a> <a href="/tags/并发/" style="font-size: 12px; color: #ccc">并发</a>
-            </div>
-          </div>
+          <h1 class="post-title" itemprop="name headline">SpringBoot关于thymeleaf引用问题</h1>
         
-      </div>
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-10-31T21:09:10+08:00">
+                2017-10-31
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Spring-Boot/" itemprop="url" rel="index">
+                    <span itemprop="name">Spring Boot</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2017/10/31/spring-extend/" class="leancloud_visitors" data-flag-title="SpringBoot关于thymeleaf引用问题">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
       
+
+      
+        <p>在刚开始学习使用Spring Boot 做demo的时候遇到了一个关于thymeleaf引用静态资源的问题。这里记录下，可能会对以后能有点帮助，由于过去太久才写的这篇博客，可能会有些不完善的地方。</p>
+<p>当时使用的环境是：Spring boot 1.5.6的版本，thymeleaf这些都是整套配置，编辑器是IDEA。</p>
+<p>错误重现可能需要等一段时间了，最近太忙，没发。现在说说关于thymeleaf中的配置问题吧。</p>
+<a id="more"></a>
+<h2 id="thymeleaf基本配置"><a href="#thymeleaf基本配置" class="headerlink" title="thymeleaf基本配置"></a>thymeleaf基本配置</h2><h3 id="pom-xml基本引用"><a href="#pom-xml基本引用" class="headerlink" title="pom.xml基本引用"></a>pom.xml基本引用</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">&lt;dependency&gt;</div><div class="line">	&lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;</div><div class="line">	&lt;artifactId&gt;spring-boot-starter-thymeleaf&lt;/artifactId&gt;</div><div class="line">	&lt;version&gt;1.5.6.RELEASE&lt;/version&gt;</div><div class="line">&lt;/dependency&gt;</div></pre></td></tr></table></figure>
+<p>在生成Spring boot 项目的时候这些可以直接生成，也就不用太在意了。</p>
+<h3 id="application-properties配置"><a href="#application-properties配置" class="headerlink" title="application.properties配置"></a>application.properties配置</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">spring.thymeleaf.cache=<span class="literal">false</span> <span class="comment">#关闭thymeleaf缓存</span></div></pre></td></tr></table></figure>
+<p>其实使用默认配置也是可以的。这样的话就可以直接在项目中返回你需要到的html页面的路径和文件名就行了，一个String的字符串。刚开始使用的时候你会发现如果就是这样使用会非常的蛋疼，还有就是你明明关闭了缓存，为什么每次修改页面之后刷新会没有作用？</p>
+<h2 id="thymeleaf稍微高级点的东西"><a href="#thymeleaf稍微高级点的东西" class="headerlink" title="thymeleaf稍微高级点的东西"></a>thymeleaf稍微高级点的东西</h2><h3 id="thymeleaf需要的其他jar包"><a href="#thymeleaf需要的其他jar包" class="headerlink" title="thymeleaf需要的其他jar包"></a>thymeleaf需要的其他jar包</h3><ul>
+<li>thymeleaf缓存</li>
+</ul>
+<p>现在先说第一个问题吧，为什么我明明关闭了thymeleaf的缓存，但是没有启任何作用呢？其实解决方式很简单，直接<strong>Ctrl+Shift+F9</strong>之后在刷型页面就起作用了，毕竟我也是一个彩笔，如果有更好的方式我希望你能告诉我。</p>
+<ul>
+<li>thymeleaf闭合标签问题</li>
+</ul>
+<p>thymeleaf需要闭合路径，也就是说我们正常的html页面有很多标签都需要在去手动修改的。必须要求闭合标签，如果写好静态页面之后，页面又比较大的话一个一个的去修改也是一件非常蛋疼的事情。</p>
+<p>thymeleaf在2.0的时候这个好像是没有办法避免的事情，只有换一种方式，将thymeleaf的jar包进行升级，在pom文件中对thymeleaf的版本进行修改</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&lt;thymeleaf.version&gt;3.0.2.RELEASE&lt;/thymeleaf.version&gt;</div><div class="line">&lt;thymeleaf-layout-dialect.version&gt;2.1.1&lt;/thymeleaf-layout-dialect.version&gt;</div></pre></td></tr></table></figure>
+<p>同时修改application.properties配置文件</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">spring.thymeleaf.mode=LEGACYHTML5</div></pre></td></tr></table></figure>
+<p>现在对于html的标签就没有那么严格的要求了。</p>
+<p>如果你没有好的实例项目，可以拿我的demo作为一个简单的参考，在我的demo里面整合了非常多的技术，并不深入，适合新手。</p>
+<p><a href="https://github.com/Mirsla/spring-boot-work" target="_blank" rel="external">spring-boot-work</a></p>
+<p>后续会在博客上更新更多关于spring boot的博客，也会有一些坑写下来。欢迎关注我的GitHub，知乎和微博。</p>
+
       
     </div>
     
     
     
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Spring-Boot/" rel="tag"><i class="fa fa-tag"></i> Spring Boot</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/08/15/Domain-Name-Binding/" rel="next" title="GitHub个人博客的域名绑定">
+                <i class="fa fa-chevron-left"></i> GitHub个人博客的域名绑定
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/11/08/Redis-Concurrent-one/" rel="prev" title="使用Redis控制并发">
+                使用Redis控制并发 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
   </div>
 
 
@@ -377,8 +545,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="http://oult9d051.bkt.clouddn.com/mirsla-blog-touxiang.jpg"
@@ -475,6 +652,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#thymeleaf基本配置"><span class="nav-number">1.</span> <span class="nav-text">thymeleaf基本配置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#pom-xml基本引用"><span class="nav-number">1.1.</span> <span class="nav-text">pom.xml基本引用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#application-properties配置"><span class="nav-number">1.2.</span> <span class="nav-text">application.properties配置</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#thymeleaf稍微高级点的东西"><span class="nav-number">2.</span> <span class="nav-text">thymeleaf稍微高级点的东西</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#thymeleaf需要的其他jar包"><span class="nav-number">2.1.</span> <span class="nav-text">thymeleaf需要的其他jar包</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -606,10 +799,10 @@
 
 
   
-    <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
 <script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
 
-  
+
 
   
 
